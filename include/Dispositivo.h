@@ -14,17 +14,15 @@ private:
 public:
     explicit Dispositivo(const std::string& id) : id_(id) {}
 
-    // Destructor virtual obligatorio para permitir destrucción segura vía Dispositivo*
+    // Destructor virtual para destrucción segura a través de Dispositivo*
     virtual ~Dispositivo() = default;
 
-    // Métodos de consulta de la clase base
+    // Métodos concretos compartidos
     const std::string& id() const { return id_; }
 
-    // Métodos virtuales puros: imponen el contrato a las subclases concretas
+    // Métodos virtuales puros (Clase Abstracta)
     virtual std::string descripcion() const = 0;
     virtual bool inspeccionar(const Pieza& pieza) = 0;
-
-    // Nota: los métodos necesitaCalibracion() y calibrar() son heredados de Calibrable
 };
 
 }  // namespace calidad
