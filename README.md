@@ -12,8 +12,7 @@ La guía completa del proyecto está en [PROYECTO.md](PROYECTO.md). Léanla ante
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
-| 5 | | | | |
-| 6 (solo equipo de seis) | | | | |
+| 5 | 26011 | Alejandro Salguero Vega | alexsalguerov-stack |  |
 
 ## 2. Cómo compilar y ejecutar
 
@@ -41,18 +40,18 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 
 | Pieza | B-01 | L-01 | V-01 | T-01 | D-01 | Resultado |
 | --- | --- | --- | --- | --- | --- | --- |
-| P-01 | | | | | | |
-| P-02 | | | | | | |
-| P-03 | | | | | | |
-| P-04 | | | | | | |
-| P-05 | | | | | | |
-| P-06 | | | | | | |
-| P-07 | | | | | | |
-| P-08 | | | | | | |
-| P-09 | | | | | | |
-| P-10 | | | | | | |
-| P-11 | | | | | | |
-| P-12 | | | | | | |
+| P-01 |  A | A | A | A |  | ACEPTADA |
+| P-02 | A | A | A | A |  | ACEPTADA |
+| P-03 | R | A | A | A |  | RECHAZADA |
+| P-04 | A | A | A | A |  | ACEPTADA |
+| P-05 | A | R | A | A |  | RECHAZADA |
+| P-06 | A | A | R | A |  | RECHAZADA |
+| P-07 | A | A | A | R |  | RECHAZADA |
+| P-08 | R | R | R | A |  | RECHAZADA |
+| P-09 | A | A | A | A |  | RECHAZADA |
+| P-10 | A | A | A | A |  | RECHAZADA |
+| P-11 | A | A | A | R |  | RECHAZADA |
+| P-12 | A | A | A | A |  | ACEPTADA |
 
 **Reporte esperado (inspeccionadas, aceptadas, rechazadas y rechazos por dispositivo):**
 
