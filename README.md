@@ -55,7 +55,15 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 
 **Reporte esperado (inspeccionadas, aceptadas, rechazadas y rechazos por dispositivo):**
 
-[Inserta aquí tu respuesta]
+| Concepto | Equipo de 5 |
+| :--- | :--- |
+| Inspeccionadas | 12 |
+| Aceptadas | 4 |
+| Rechazadas | 8 |
+| Rechazos B-01 | 2 |
+| Rechazos L-01 | 2 |
+| Rechazos T-01 | 2 |
+| Rechazos V-01 | 2 |
 
 **¿Coincide con lo que imprime el programa? Si no coincidió al primer intento, ¿qué encontraron y cómo lo corrigieron?**
 
