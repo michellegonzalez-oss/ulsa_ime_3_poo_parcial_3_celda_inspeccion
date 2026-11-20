@@ -9,7 +9,6 @@ public:
 
     // Métodos virtuales puros: definen el contrato de calibración
     virtual bool necesitaCalibracion() const = 0;
-    virtual void calibrar() = 0;
-};
+    virtual bool calibrar() = 0; // Debe retornar bool (true = OK, false = FALLA)};
 
 }  // namespace calidad

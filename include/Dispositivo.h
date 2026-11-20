@@ -21,7 +21,7 @@ public:
     const std::string& id() const { return id_; }
 
     // Métodos virtuales puros: imponen el contrato a las subclases concretas
-    virtual std::string tipo() const = 0;
+    virtual std::string descripcion() const = 0;
     virtual bool inspeccionar(const Pieza& pieza) = 0;
 
     // Nota: los métodos necesitaCalibracion() y calibrar() son heredados de Calibrable
