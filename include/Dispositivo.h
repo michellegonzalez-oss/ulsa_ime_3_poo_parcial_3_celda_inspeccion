@@ -2,29 +2,29 @@
 
 #include <string>
 
+#include "Calibrable.h"
 #include "Pieza.h"
 
 namespace calidad {
 
-class Dispositivo {
+class Dispositivo : public Calibrable {
 private:
     std::string id_;
 
 public:
     explicit Dispositivo(const std::string& id) : id_(id) {}
 
+    // Destructor virtual obligatorio para permitir destrucción segura vía Dispositivo*
+    virtual ~Dispositivo() = default;
+
+    // Métodos de consulta de la clase base
     const std::string& id() const { return id_; }
 
-    // TODO (equipo): definan el contrato que todo dispositivo debe cumplir.
-    //  - La celda necesita pedirle a CUALQUIER dispositivo que inspeccione una pieza
-    //    y que diga qué tipo de dispositivo es.
-    //  - No debe poder crearse un "Dispositivo" genérico.
-    //  - Debe ser seguro destruir un dispositivo concreto a través de un Dispositivo*.
-    //
-    // Preguntas para el diseño:
-    //  ¿Qué métodos declaran aquí y cuáles deben ser virtuales puros?
-    //  ¿Cuáles deben ser const y por qué?
-    //  ¿Qué pasa con el destructor?
+    // Métodos virtuales puros: imponen el contrato a las subclases concretas
+    virtual std::string descripcion() const = 0;
+    virtual bool inspeccionar(const Pieza& pieza) = 0;
+
+    // Nota: los métodos necesitaCalibracion() y calibrar() son heredados de Calibrable
 };
 
 }  // namespace calidad
