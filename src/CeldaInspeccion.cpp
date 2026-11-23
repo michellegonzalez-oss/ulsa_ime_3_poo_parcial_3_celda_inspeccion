@@ -9,14 +9,37 @@ namespace calidad {
 void CeldaInspeccion::iniciarTurno() {
     std::cout << "=== Inicio de turno ===\n";
     for (Dispositivo* d : dispositivos_) {
-        // ¿Este dispositivo también es Calibrable? (cross-cast con herencia múltiple)
+        // dynamic_cast evalúa si el Dispositivo implementa la interfaz Calibrable
         if (Calibrable* c = dynamic_cast<Calibrable*>(d)) {
-            std::cout << "Calibrando " << d->id() << " (" << d->descripcion() << ") ... "
-                      << (c->calibrar() ? "OK" : "FALLA") << '\n';
+            if (c->necesitaCalibracion()) {
+                std::cout << "Calibrando " << d->id() << " (" << d->descripcion() << ") ... "
+                          << (c->calibrar() ? "OK" : "FALLA") << '\n';
+            }
         }
     }
 }
 
-// TODO (equipo): implementen agregarDispositivo(), procesar() y reporte().
+void CeldaInspeccion::agregarDispositivo(Dispositivo* d) {
+    if (d != nullptr) {
+        dispositivos_.push_back(d);
+    }
+}
+
+bool CeldaInspeccion::procesar(const Pieza& pieza) {
+    bool aceptada = true;
+
+    for (Dispositivo* d : dispositivos_) {
+        if (!d->inspeccionar(pieza)) {
+            aceptada = false;
+        }
+    }
+
+    reporte_.registrarPieza(aceptada);
+    return aceptada;
+}
+
+const ReporteTurno& CeldaInspeccion::reporte() const {
+    return reporte_;
+}
 
 }  // namespace calidad
