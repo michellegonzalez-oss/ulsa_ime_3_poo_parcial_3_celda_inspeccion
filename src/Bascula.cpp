@@ -19,4 +19,4 @@ bool Bascula::inspeccionar(const Pieza& pieza) {
     return (peso >= pesoMin_ && peso <= pesoMax_);
 }
 
-}  // namespace calidad
+}  
