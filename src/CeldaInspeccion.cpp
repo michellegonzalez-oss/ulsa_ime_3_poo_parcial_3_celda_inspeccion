@@ -1,7 +1,5 @@
 #include "CeldaInspeccion.h"
-
 #include <iostream>
-
 #include "Calibrable.h"
 
 namespace calidad {
@@ -9,12 +7,10 @@ namespace calidad {
 void CeldaInspeccion::iniciarTurno() {
     std::cout << "=== Inicio de turno ===\n";
     for (Dispositivo* d : dispositivos_) {
-        // dynamic_cast evalúa si el Dispositivo implementa la interfaz Calibrable
+        // Cross-cast en tiempo de ejecucion: verifica si d hereda de Calibrable
         if (Calibrable* c = dynamic_cast<Calibrable*>(d)) {
-            if (c->necesitaCalibracion()) {
-                std::cout << "Calibrando " << d->id() << " (" << d->descripcion() << ") ... "
-                          << (c->calibrar() ? "OK" : "FALLA") << '\n';
-            }
+            std::cout << "Calibrando " << d->id() << " (" << d->descripcion() << ") ... "
+                      << (c->calibrar() ? "OK" : "FALLA") << '\n';
         }
     }
 }

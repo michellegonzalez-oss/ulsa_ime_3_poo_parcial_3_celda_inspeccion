@@ -4,6 +4,8 @@
 #include <vector>
 
 #include "CeldaInspeccion.h"
+#include "DatosTurno.h"
+#include "Pieza.h"
 #include "CamaraVision.h"
 
 using namespace calidad;
@@ -29,10 +31,11 @@ int main() {
 
     // 3. Fase Pre-Turno: Calibración
     // dynamic_cast identifica qué dispositivos son Calibrables y resetea su desfase a 0.0
+    celda.iniciarTurno();
 
     // 4. Definición de Lote de Piezas de Prueba
     // Pieza(id, peso, largo, tieneDefectos, temperatura)
-
+    std::vector<Pieza> lote = piezasDelTurno();
     // 5. Fase de Operación: Inspección en Flujo
 
     // 6. Fase de Cierre: Consolidación del Reporte de Turno
