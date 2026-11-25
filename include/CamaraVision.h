@@ -1,6 +1,5 @@
 // include/CamaraVision.h
 #pragma once
-
 #include "Dispositivo.h"
 
 namespace calidad {

@@ -3,16 +3,12 @@
 
 namespace calidad {
 
-CamaraVision::CamaraVision(const std::string& id)
-    : Dispositivo(id) {}
+CamaraVision::CamaraVision(const std::string& id) : Dispositivo(id) {}
 
-std::string CamaraVision::descripcion() const {
-    return "Cámara de Visión Artificial (Defectos Visibles)";
-}
+std::string CamaraVision::descripcion() const { return "Cámara de Visión Artificial"; }
 
 bool CamaraVision::inspeccionar(const Pieza& pieza) {
-    // Rechaza la pieza si tiene defectos visibles
-    return !pieza.tieneDefectos();
+    return (pieza.defectos() == 0);
 }
 
 }  // namespace calidad
