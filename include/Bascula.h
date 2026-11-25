@@ -2,7 +2,7 @@
 
 namespace calidad {
 
-class Bascula {
+class Bascula : public dispostivo {
 };
 
-}  // namespace calidad
+}  
