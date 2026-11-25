@@ -3,16 +3,13 @@
 
 namespace calidad {
 
-class SensorTemperatura : public Dispositivo {
+class SensorTemperatura final : public Dispositivo {
 private:
     double tempMax_;
-    bool requiereCalib_;
 
 public:
-    SensorTemperatura(const std::string& id, double tempMax, bool requiereCalib = false);
+    SensorTemperatura(const std::string& id, double tempMax);
 
-    bool necesitaCalibracion() const override;
-    bool calibrar() override;
     std::string descripcion() const override;
     bool inspeccionar(const Pieza& pieza) override;
 };
