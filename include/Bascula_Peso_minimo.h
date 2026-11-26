@@ -9,10 +9,7 @@ private:
     double desfase_;
 
 public:
-Basculamin(const std::string& id, double pesoMin, double desfaseFabrica);
-
-    bool necesitaCalibracion() const override;
-    bool calibrar() override;
+Bascula(const std::string& id, double pesoMin,);
 
     std::string descripcion() const override;
     bool inspeccionar(const Pieza& pieza) override;
