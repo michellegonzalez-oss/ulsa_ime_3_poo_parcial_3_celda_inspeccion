@@ -4,7 +4,7 @@
 
 **Documentación elaborada por:** [Dannia Ximena Plata Palos]
 **Matrícula:** [25176]
-**Integrante:** [-]
+**Integrante:** [3]
 
 ## 1. Propósito
 
