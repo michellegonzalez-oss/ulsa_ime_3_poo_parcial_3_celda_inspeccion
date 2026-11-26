@@ -102,13 +102,9 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 | Integrante | Documentación de su clase | Rama del reto opcional |
 | --- | --- | --- |
 | Alejandro Salguero Vega | docs\docs\26011\CalibradorLaser.md |  |
-| | | |
-| Renata Lucía Farías Esquivel | docs/docs/25111/Bascula.md
-| | | |
+| Renata Lucía Farías Esquivel | docs/docs/25111/Bascula.md | |
 | Michelle González Barrera | `docs\docs\25069\CamaraVision.md` | No |
-| Dannia Ximena Plata Palos|docs/docs/25176/SensorTemperatura.md| No|
-|4 | `docs/<25069>/<CamaraVision>.md` | No |
-| | | |
+| Dannia Ximena Plata Palos|docs/docs/25176/SensorTemperatura.md| No |
 
 Los resultados de los experimentos están en [docs/experimentos.md](docs/experimentos.md).
 
