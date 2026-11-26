@@ -1,10 +1,11 @@
 #pragma once
 #include <string>
 #include "Dispositivo.h"
+#include "Pieza.h"
 
 namespace calidad {
 
-class Bascula : public Dispositivo {
+class Bascula_Peso_minimo : public Dispositivo {
 private:
     double pesoMin_;
 
