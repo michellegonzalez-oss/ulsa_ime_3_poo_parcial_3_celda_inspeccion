@@ -101,7 +101,7 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 
 | Integrante | Documentación de su clase | Rama del reto opcional |
 | --- | --- | --- |
-| | `docs/<matrícula>/<Clase>.md` | `<matrícula>` o "No" |
+| Alejandro Salguero Vega | docs\docs\26011\CalibradorLaser.md |  |
 | | | |
 | | | |
 | | | |
