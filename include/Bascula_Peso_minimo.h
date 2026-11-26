@@ -1,10 +1,9 @@
 #pragma once
-#include "Calibrable.h"
 #include "Dispositivo.h"
 
 namespace calidad {
 
-class Bascula : public Dispositivo, public Calibrable {
+class Bascula : public Dispositivo {
 private:
     double pesoMin_;
     double desfase_;
