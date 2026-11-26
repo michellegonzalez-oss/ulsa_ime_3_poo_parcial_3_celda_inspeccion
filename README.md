@@ -10,7 +10,7 @@ La guía completa del proyecto está en [PROYECTO.md](PROYECTO.md). Léanla ante
 | --- | --- | --- | --- | --- |
 | 1 | | | | |
 | 2 | | | | |
-| 3 | | | | |
+| 3 | 25176| Dannia Ximena Plata Palos| dannia-plata| SensorTemperatura|
 | 4 | 25069 | Michelle González Barrera | michellegonzalez-oss | CamaraVision |
 | 5 | 26011 | Alejandro Salguero Vega | alexsalguerov-stack |  |
 
@@ -104,8 +104,13 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 | Alejandro Salguero Vega | docs\docs\26011\CalibradorLaser.md |  |
 | | | |
 | | | |
+<<<<<<< Updated upstream
 | | | |
 | Michelle González Barrera | `docs\docs\25069\CamaraVision.md` | No |
+=======
+| 3|docs/25176/SensorTemperatura| No|
+|4 | `docs/<25069>/<CamaraVision>.md` | No |
+>>>>>>> Stashed changes
 | | | |
 
 Los resultados de los experimentos están en [docs/experimentos.md](docs/experimentos.md).
