@@ -80,8 +80,8 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 | Concepto | Equipo de 5 |
 | :--- | :--- |
 | Inspeccionadas | 12 |
-| Aceptadas | 4 |
-| Rechazadas | 8 |
+| Aceptadas | 6 |
+| Rechazadas | 6 |
 | Rechazos B-01 | 2 |
 | Rechazos L-01 | 2 |
 | Rechazos T-01 | 2 |
@@ -89,7 +89,7 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 
 **¿Coincide con lo que imprime el programa? Si no coincidió al primer intento, ¿qué encontraron y cómo lo corrigieron?**
 
-El calculo no coincide con lo que imprime con el programa, pero cumple con lo que se espera que imprima según la tabla dentro de PROYECTO.md (equipo de 5 integrantes). Pendiente revisarlo.
+El calculo no coincidía con lo que imprime con el programa, pero cumple con lo que se espera que imprima según la tabla dentro de PROYECTO.md (equipo de 5 integrantes). Tras realizar un ajuste en los calculos, después de considerar los desfases, aunque de manera literal se rechazan,al verse afectadas por los desfases resultan siendo aceptadas (corrección).
 
 ## 5. Diagrama de clases
 
