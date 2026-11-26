@@ -2,7 +2,7 @@
 
 > Copia este archivo como `docs/26011/CalibradorLaser.md` (por ejemplo, `docs/0123456/Bascula.md`) y llena tu copia. No modifiques la plantilla.
 
-**Documentación elaborada por:** [Inserta aquí tu nombre]
+**Documentación elaborada por:** Alejandro Salguero Vega
 **Matrícula:** 26011
 **Integrante:** [Inserta aquí tu número de integrante]
 
