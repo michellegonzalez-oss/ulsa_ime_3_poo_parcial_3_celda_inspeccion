@@ -104,7 +104,6 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 | Alejandro Salguero Vega | docs\docs\26011\CalibradorLaser.md |  |
 | | | |
 | | | |
-<<<<<<< Updated upstream
 | | | |
 | Michelle González Barrera | `docs\docs\25069\CamaraVision.md` | No |
 | Dannia Ximena Plata Palos|docs/docs/25176/SensorTemperatura.md| No|
