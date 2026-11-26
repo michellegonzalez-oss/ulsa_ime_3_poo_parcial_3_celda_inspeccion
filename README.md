@@ -107,10 +107,8 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 <<<<<<< Updated upstream
 | | | |
 | Michelle González Barrera | `docs\docs\25069\CamaraVision.md` | No |
-=======
-| 3|docs/25176/SensorTemperatura| No|
+| Dannia Ximena Plata Palos|docs/docs/25176/SensorTemperatura.md| No|
 |4 | `docs/<25069>/<CamaraVision>.md` | No |
->>>>>>> Stashed changes
 | | | |
 
 Los resultados de los experimentos están en [docs/experimentos.md](docs/experimentos.md).
