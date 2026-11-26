@@ -19,4 +19,4 @@ public:
     virtual bool inspeccionar(const Pieza& pieza) = 0;
 };
 
-}  // namespace calidad
+} 
