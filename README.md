@@ -66,13 +66,13 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 | P-02 | A | A | A | A |  | ACEPTADA |
 | P-03 | R | A | A | A |  | RECHAZADA |
 | P-04 | A | A | A | A |  | ACEPTADA |
-| P-05 | A | R | A | A |  | RECHAZADA |
+| P-05 | A | R | A | A |  | ACEPTADA |
 | P-06 | A | A | R | A |  | RECHAZADA |
 | P-07 | A | A | A | R |  | RECHAZADA |
 | P-08 | R | R | R | A |  | RECHAZADA |
 | P-09 | A | A | A | A |  | RECHAZADA |
 | P-10 | A | A | A | A |  | RECHAZADA |
-| P-11 | A | A | A | R |  | RECHAZADA |
+| P-11 | A | A | A | R |  | ACEPTADA |
 | P-12 | A | A | A | A |  | ACEPTADA |
 
 **Reporte esperado (inspeccionadas, aceptadas, rechazadas y rechazos por dispositivo):**
