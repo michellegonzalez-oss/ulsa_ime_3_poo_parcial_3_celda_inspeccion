@@ -9,7 +9,7 @@ La guía completa del proyecto está en [PROYECTO.md](PROYECTO.md). Léanla ante
 | Integrante | Matrícula | Nombre | Usuario de GitHub | Clase |
 | --- | --- | --- | --- | --- |
 | 1 | | | | |
-| 2 | | | | |
+| 2 | 25111 | Renata Lucía Farías Esquivel | renatafarias-lang | Bascula
 | 3 | 25176| Dannia Ximena Plata Palos| dannia-plata| SensorTemperatura|
 | 4 | 25069 | Michelle González Barrera | michellegonzalez-oss | CamaraVision |
 | 5 | 26011 | Alejandro Salguero Vega | alexsalguerov-stack |  |
@@ -103,7 +103,7 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 | --- | --- | --- |
 | Alejandro Salguero Vega | docs\docs\26011\CalibradorLaser.md |  |
 | | | |
-| | | |
+| Renata Lucía Farías Esquivel | docs/docs/25111/Bascula.md
 | | | |
 | Michelle González Barrera | `docs\docs\25069\CamaraVision.md` | No |
 | Dannia Ximena Plata Palos|docs/docs/25176/SensorTemperatura.md| No|

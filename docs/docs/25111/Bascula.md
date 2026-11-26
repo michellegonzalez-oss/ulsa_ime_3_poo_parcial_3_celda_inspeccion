@@ -1,17 +1,19 @@
 
-# Documentación de la clase: [Inserta aquí el nombre de tu clase]
+# Documentación de la clase: BASCULA
 
-> Copia este archivo como `docs/<matrícula>/<Clase>.md` (por ejemplo, `docs/0123456/Bascula.md`) y llena tu copia. No modifiques la plantilla.
 
-**Documentación elaborada por:** [Inserta aquí tu nombre]
-**Matrícula:** [Inserta aquí tu matrícula]
-**Integrante:** [Inserta aquí tu número de integrante]
+
+**Documentación elaborada por:** Renata Lucía Farías Esquivel
+**Matrícula:** 25111
+**Integrante:** 2
 
 ## 1. Propósito
 
 **¿Qué representa tu clase y qué revisa o registra de cada pieza?**
 
-[Inserta aquí tu respuesta]
+Mi clase Bascula representa una estación de inspección de peso dentro de una línea de producción. Su función principal es verificar que las piezas cumplan con los estándares de calidad en cuanto a su masa.
+De cada pieza, la clase revisa y evalúa su peso pieza.peso(). Retorna true si la pieza está dentro del rango permitido (es decir, es una pieza "buena" o aprobada) o false si está fuera de los límites (pieza defectuosa).
+Además, la clase registra internamente su estado de calibración y proporciona un método para reiniciar ese desfase a cero calibrar().
 
 **¿Quién usa tu clase y para qué?**
 
