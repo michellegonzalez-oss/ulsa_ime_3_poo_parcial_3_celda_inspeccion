@@ -105,7 +105,7 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 | | | |
 | | | |
 | | | |
-|4 | `docs\docs\25069\CamaraVision.md` | No |
+| Michelle González Barrera | `docs\docs\25069\CamaraVision.md` | No |
 | | | |
 
 Los resultados de los experimentos están en [docs/experimentos.md](docs/experimentos.md).
