@@ -12,7 +12,7 @@ bool CalibradorLaser::calibrar() {
     return true;
 }
 
-std::string CalibradorLaser::descripcion() const { return "Calibrador Láser de Longitud"; }
+std::string CalibradorLaser::descripcion() const { return "Calibrador Laser de Longitud"; }
 
 bool CalibradorLaser::inspeccionar(const Pieza& pieza) {
     double largoMedido = pieza.largo() + desfase_;
