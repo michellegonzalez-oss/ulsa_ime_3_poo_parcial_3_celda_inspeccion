@@ -5,7 +5,7 @@
 
 namespace calidad {
 
-class Bascula_Peso_minimo : public Dispositivo {
+class BasculaMin : public Dispositivo {
 private:
     double pesoMin_;
 
