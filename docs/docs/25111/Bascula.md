@@ -72,4 +72,4 @@ Al principio no tenía claro por qué debía heredar de Dispositivo ni cómo fun
 
 **Errores que encontraste y cómo los corregiste:**
 
-Solo se nos dificultó la ejecución por un comando mal escrito y otroe incorrectos. 
+Solo se nos dificultó la ejecución por un comando mal escrito y otroe incorrectos, fuera de eso no hubo muchos errores durante el proceso.
