@@ -15,3 +15,4 @@ int main() {
     std::cout << "sizeof(Bascula):     " << sizeof(Bascula)     << " bytes (base + atributos propios)\n";
     return 0;
 }
+
