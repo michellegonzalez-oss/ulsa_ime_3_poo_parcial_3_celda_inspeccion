@@ -2,21 +2,20 @@
 
 namespace calidad {
 
-Bascula::Bascula(const std::string& id, double pesoMin, double pesoMax, bool estaDescalibrada)
-    : Dispositivo(id), pesoMin_(pesoMin), pesoMax_(pesoMax), descalibrada_(estaDescalibrada) {}
-bool Bascula::necesitaCalibracion() const { return descalibrada_; }
+Bascula::Bascula(const std::string& id, double pesoMin, double pesoMax, double desfaseFabrica)
+    : Dispositivo(id), pesoMin_(pesoMin), pesoMax_(pesoMax), desfase_(desfaseFabrica) {}
+
+bool Bascula::necesitaCalibracion() const { return desfase_ != 0.0; }
 
 bool Bascula::calibrar() {
-    descalibrada_ = false;
+    desfase_ = 0.0;
     return true;
 }
-
-std::string Bascula::descripcion() const { return "Báscula de Inspección de Peso"; }
+std::string Bascula::descripcion() const { return "Bascula de Inspeccion de Peso"; }
 
 bool Bascula::inspeccionar(const Pieza& pieza) {
-    double peso = pieza.peso();
-    if (descalibrada_) peso += 5.0; // Aplica sesgo de error por falta de calibración
-    return (peso >= pesoMin_ && peso <= pesoMax_);
+    double pesoMedido = pieza.peso() + desfase_;
+    return (pesoMedido >= pesoMin_ && pesoMedido <= pesoMax_);
 }
 
 }  
