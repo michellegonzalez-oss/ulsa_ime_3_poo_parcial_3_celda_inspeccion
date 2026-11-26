@@ -8,7 +8,7 @@ private:
     double pesoMin_;
 
 public:
-Bascula(const std::string& id, double pesoMin);
+BasculaMin(const std::string& id, double pesoMin);
 
     std::string descripcion() const override;
     bool inspeccionar(const Pieza& pieza) override;

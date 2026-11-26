@@ -2,14 +2,14 @@
 
 namespace calidad {
 
-Bascula::Bascula(const std::string& id, double pesoMin)
+BasculaMin::BasculaMin(const std::string& id, double pesoMin)
     : Dispositivo(id), pesoMin_(pesoMin) {}
 
-std::string Bascula::descripcion() const { 
+std::string BasculaMin::descripcion() const { 
     return "Bascula de Inspeccion de Peso"; 
 }
 
-bool Bascula::inspeccionar(const Pieza& pieza) {
+bool BasculaMin::inspeccionar(const Pieza& pieza) {
     double pesoMedido = pieza.peso();
     return (pesoMedido >= pesoMin_);
 }

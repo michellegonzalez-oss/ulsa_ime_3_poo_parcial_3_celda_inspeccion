@@ -5,7 +5,7 @@ namespace calidad {
 std::vector<Pieza> piezasDelTurno() {
     return {
         //     id      peso  largo  temp  defectos dureza
-        Pieza("P-01", 12.0, 50.0, 25.0, 0, 52),
+        Pieza("P-01", 8.0, 50.0, 25.0, 0, 52),
         Pieza("P-02", 15.0, 50.0, 24.0, 0, 50),
         Pieza("P-03", 16.2, 50.1, 25.0, 0, 55),
         Pieza("P-04", 12.5, 50.5, 26.0, 0, 48),
