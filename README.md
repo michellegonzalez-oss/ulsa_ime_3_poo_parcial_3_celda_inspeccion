@@ -66,13 +66,13 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 | P-02 | A | A | A | A |  | ACEPTADA |
 | P-03 | R | A | A | A |  | RECHAZADA |
 | P-04 | A | A | A | A |  | ACEPTADA |
-| P-05 | A | R | A | A |  | RECHAZADA |
+| P-05 | A | R | A | A |  | ACEPTADA |
 | P-06 | A | A | R | A |  | RECHAZADA |
 | P-07 | A | A | A | R |  | RECHAZADA |
 | P-08 | R | R | R | A |  | RECHAZADA |
 | P-09 | A | A | A | A |  | RECHAZADA |
 | P-10 | A | A | A | A |  | RECHAZADA |
-| P-11 | A | A | A | R |  | RECHAZADA |
+| P-11 | A | A | A | R |  | ACEPTADA |
 | P-12 | A | A | A | A |  | ACEPTADA |
 
 **Reporte esperado (inspeccionadas, aceptadas, rechazadas y rechazos por dispositivo):**
@@ -80,8 +80,8 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 | Concepto | Equipo de 5 |
 | :--- | :--- |
 | Inspeccionadas | 12 |
-| Aceptadas | 4 |
-| Rechazadas | 8 |
+| Aceptadas | 6 |
+| Rechazadas | 6 |
 | Rechazos B-01 | 2 |
 | Rechazos L-01 | 2 |
 | Rechazos T-01 | 2 |
@@ -89,7 +89,7 @@ Turno de 12 piezas, con la celda ya calibrada. Escriban `ACEPTA` o `RECHAZA` por
 
 **¿Coincide con lo que imprime el programa? Si no coincidió al primer intento, ¿qué encontraron y cómo lo corrigieron?**
 
-El calculo no coincide con lo que imprime con el programa, pero cumple con lo que se espera que imprima según la tabla dentro de PROYECTO.md (equipo de 5 integrantes). Pendiente revisarlo.
+El calculo no coincidía con lo que imprime con el programa, pero cumple con lo que se espera que imprima según la tabla dentro de PROYECTO.md (equipo de 5 integrantes). Tras realizar un ajuste en los calculos, después de considerar los desfases, aunque de manera literal se rechazan,al verse afectadas por los desfases resultan siendo aceptadas (corrección).
 
 ## 5. Diagrama de clases
 
@@ -102,13 +102,9 @@ Diagrama de clases de la solución completa, hecho en draw.io. Guarden la imagen
 | Integrante | Documentación de su clase | Rama del reto opcional |
 | --- | --- | --- |
 | Alejandro Salguero Vega | docs\docs\26011\CalibradorLaser.md |  |
-| | | |
-| Renata Lucía Farías Esquivel | docs/docs/25111/Bascula.md
-| | | |
+| Renata Lucía Farías Esquivel | docs/docs/25111/Bascula.md | |
 | Michelle González Barrera | `docs\docs\25069\CamaraVision.md` | No |
-| Dannia Ximena Plata Palos|docs/docs/25176/SensorTemperatura.md| No|
-|4 | `docs/<25069>/<CamaraVision>.md` | No |
-| | | |
+| Dannia Ximena Plata Palos|docs/docs/25176/SensorTemperatura.md| No |
 
 Los resultados de los experimentos están en [docs/experimentos.md](docs/experimentos.md).
 
