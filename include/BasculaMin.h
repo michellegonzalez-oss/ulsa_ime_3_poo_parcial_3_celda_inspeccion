@@ -1,7 +1,5 @@
 #pragma once
-#include <string>
 #include "Dispositivo.h"
-#include "Pieza.h"
 
 namespace calidad {
 

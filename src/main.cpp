@@ -5,6 +5,7 @@
 #include "DatosTurno.h"
 #include "Pieza.h"
 #include "Bascula.h"
+#inlcude "BasculaMin.h"
 #include "CalibradorLaser.h"
 #include "CamaraVision.h"
 #include "SensorTemperatura.h"
@@ -17,7 +18,8 @@ int main() {
     std::cout << "====================================================\n\n";
 
     // 1. Instanciación de dispositivos con tolerancias según piezasDelTurno()
-    Bascula bascula("B-01", 10.0, 16.0, 2.0);          // Desfase inicial = +2.0 kg
+    Bascula bascula("B-01", 10.0, 16.0, 2.0);  // Desfase inicial = +2.0 kg
+    BasculaMin basculaMin("W-01", 11.O);        
     CalibradorLaser laser("L-01", 49.8, 50.8, -1.5);   // Desfase inicial = -1.5 mm
     CamaraVision camara("C-01");
     SensorTemperatura temp("T-01", 30.0);               // Máximo 30.0 °C
@@ -25,6 +27,7 @@ int main() {
     // 2. Configurar Celda (Agregación)
     CeldaInspeccion celda;
     celda.agregarDispositivo(&bascula);
+    celda.agregarDispositivo(&basculaMin);
     celda.agregarDispositivo(&laser);
     celda.agregarDispositivo(&camara);
     celda.agregarDispositivo(&temp);
